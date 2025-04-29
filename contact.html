@@ -8,7 +8,7 @@
 <body>
 
 <header>
-    <h1>Contact Us</h1>
+    <h1>Contact WebLabPrints</h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -19,19 +19,19 @@
     </nav>
 </header>
 
-<section>
-    <h2>Get in Touch</h2>
+<section id="contact-info">
+    <h2>We Would Love to Hear from You!</h2>
+    <p>If you have any questions about our products, custom print requests, or anything else, feel free to reach out. We are here to help!</p>
+    <p><strong>Email Us Directly:</strong> <a href="mailto:weblabprints@gmail.com">weblabprints@gmail.com</a></p>
+</section>
+
+<section id="contact-form">
+    <h2>Send Us a Message</h2>
     <form id="contactForm">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br>
-
-        <button type="submit">Send</button>
+        <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea><br>
+        <button type="submit">Submit</button>
     </form>
 </section>
 
@@ -40,5 +40,6 @@
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
